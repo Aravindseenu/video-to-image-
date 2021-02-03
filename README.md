@@ -1,1 +1,2 @@
-# video-to-image-
+# video-to-image
+python script to convert video to images
