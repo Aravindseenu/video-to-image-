@@ -1,5 +1,5 @@
 import cv2
-vidcap = cv2.VideoCapture('/home/nvidia/lanenet-lane-detection/data/tusimple_test_image/test2.mp4') #// enter the path to video file or give wewbcam as input
+vidcap = cv2.VideoCapture('insert your path to video') #// enter the path to video file or give wewbcam as input
 def getFrame(sec):
     vidcap.set(cv2.CAP_PROP_POS_MSEC,sec*1000)
     hasFrames,image = vidcap.read()
